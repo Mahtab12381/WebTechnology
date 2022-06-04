@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lab_Task</title>
+</head>
+<body>
+<form action="Registration.php" method="post">
+	<fieldset>
+    <legend>General</legend>
+		<label for="fname">First Name:</label>
+		<input type="text" name="firstname" id="fname">
+		<br><br>
+		<label for="lname">Last Name:</label>
+		<input type="text" name="lastname" id="lname">
+		<br><br>
+		<label>Gender</label>
+		<input type="radio" id="male" name="gender" value="Male">
+		<label for="male">Male</label>
+		<input type="radio" id="female" name="gender" value="Female">
+		<label for="female">Female</label>
+	</fieldset>
+	<fieldset>
+		<legend>Contact</legend>
+		<label for="email">Email</label>
+		<input type="text" name="email" id="email">
+		<br><br>
+		<label for="mno">Mobile No</label>
+		<input type="number" name="mobile_no" id="mno">
+	</fieldset>
+	<fieldset>
+		<legend>Address</legend>
+		<label for="address">Street/House/Road</label>
+		<input type="text" name="address" id="address">
+		<br><br>
+		<label for="country">Country</label>
+		<select id="country" name="country">
+			<option value="Bangladesh">Bangladesh</option>
+			<option value="India">India</option>
+			<option value="Nepal">Nepal</option>
+			<option value="USA">USA</option>
+		</select>
+	</fieldset>
+	<input type="Submit" value="Registration">
+</form>
+</body>
+</html>
